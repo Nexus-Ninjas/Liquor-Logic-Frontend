@@ -25,7 +25,7 @@ jobs:
   #   secrets: inherit
 
  Test_and_build:
-    name: NODE test code
+    name: NODE test, build and push code
     # if: ${{ github.event.pull_request.merged == true }}    
     uses: Nexus-Ninjas/reusable-workflows/.github/workflows/node.yaml@main
     with:
