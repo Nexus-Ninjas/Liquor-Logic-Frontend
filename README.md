@@ -46,6 +46,8 @@ Currently this system hosted on Azure(Moved from orginally hosted AWS due to hig
 Continous Deployment workflow is built but not yet used
 
 Build artifacts can run using yarn command in the same server as backend services
+
 **Need to update Liquor-Logic-Frontend\src\constants\api.ts files content with correct details(Server IP)
+
 yarn run dev
 
