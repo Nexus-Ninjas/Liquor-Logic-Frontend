@@ -42,3 +42,5 @@ jobs:
       RELEASE_VERSION: PREPROD
       GH_ENVIRONMENT: PREPROD
     secrets: inherit
+    needs:
+      - Test_and_build    
