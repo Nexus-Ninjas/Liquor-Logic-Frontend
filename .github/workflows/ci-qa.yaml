@@ -1,4 +1,4 @@
-name: CI [backend-app] QA
+name: CI [frontend-app] QA
 
 on:
   pull_request:
@@ -24,7 +24,7 @@ jobs:
     if: ${{ github.event.pull_request.merged == true }}    
     uses: Nexus-Ninjas/reusable-workflows/.github/workflows/node.yaml@main
     with:
-      GH_ENVIRONMENT: DEVELOP  
+      GH_ENVIRONMENT: QA  
       ACTION: test  
     secrets: inherit  
 
@@ -33,7 +33,7 @@ jobs:
     if: ${{ github.event.pull_request.merged == true }}
     uses: Nexus-Ninjas/reusable-workflows/.github/workflows/release.yaml@main
     with:
-      RELEASE_NAME: NexusNinija LiquorLogic BE QA release
+      RELEASE_NAME: NexusNinija LiquorLogic FE QA release
       RELEASE_VERSION: QA
       GH_ENVIRONMENT: QA
     secrets: inherit
