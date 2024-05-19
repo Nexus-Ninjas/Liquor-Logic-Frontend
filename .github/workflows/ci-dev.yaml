@@ -38,3 +38,5 @@ jobs:
       RELEASE_VERSION: DEV
       GH_ENVIRONMENT: DEVELOP
     secrets: inherit
+    needs:
+      - Test_and_build    
