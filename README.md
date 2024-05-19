@@ -37,4 +37,10 @@ Branching strategy is GitFlow
    4) QA branch - QA 
 
 For every PR open it will run Snyk, Sonarqube and Label check Workflows and Once PR is merge it will build the code and upload artifacts to GitHub artifacts
+For every non Prod release creation is automated using Workflows and for every PR merge new GH release will create
 
+
+Continous Deployment 
+-- 
+Currently this system hosted on Azure(Moved from orginally hosted AWS due to high pricing). 
+Continous Deployment workflow is not used yet
