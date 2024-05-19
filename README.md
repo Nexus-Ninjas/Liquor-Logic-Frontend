@@ -50,4 +50,3 @@ Build artifacts can run using yarn command in the same server as backend service
 **Need to update Liquor-Logic-Frontend\src\constants\api.ts files content with correct details(Server IP)
 
 yarn run dev
-
