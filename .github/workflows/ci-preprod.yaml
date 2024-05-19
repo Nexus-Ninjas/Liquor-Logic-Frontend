@@ -24,7 +24,7 @@ jobs:
   #     VALID_LABELS: release:major, release:minor, release:patch
   #   secrets: inherit
 
-  Test:
+ Test_and_build:
     name: NODE test code
     # if: ${{ github.event.pull_request.merged == true }}    
     uses: Nexus-Ninjas/reusable-workflows/.github/workflows/node.yaml@main
