@@ -6,8 +6,8 @@ on:
       - 'v*'
 
 jobs:
-  Test:
-    name: NODE test code    
+  Test_and_build:
+    name: NODE test, build and push code
     uses: Nexus-Ninjas/reusable-workflows/.github/workflows/node.yaml@main
     with:
       GH_ENVIRONMENT: PROD  
