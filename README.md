@@ -37,14 +37,15 @@ Branching strategy is GitFlow
    4) QA branch - QA 
 
 For every PR open it will run Snyk, Sonarqube and Label check Workflows and Once PR is merge it will build the code and upload artifacts to GitHub artifacts
-For every non Prod release, a GH release will create and creation of this also auotomated using workflows
+For every non Prod release, a GH release will create and creation of this also automated using GH workflows
 
 
 Continous Deployment 
 -- 
 Currently this system hosted on Azure(Moved from orginally hosted AWS due to high pricing). 
-Continous Deployment workflow is not used yet
+Continous Deployment workflow is built but not yet used
 
-Build artifacts can run using yarn command
+Build artifacts can run using yarn command in the same server as backend services
+**Need to update Liquor-Logic-Frontend\src\constants\api.ts files content with correct details(Server IP)
 yarn run dev
 
