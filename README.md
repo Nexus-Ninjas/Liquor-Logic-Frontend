@@ -25,3 +25,16 @@ If you are developing a production application, we recommend updating the config
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+## Continous Development & Delivery
+
+For Continous development this project is using GitHub reusable actions with selfhosted runner.
+Branching strategy is GitFlow
+   1) Tag from main branch - Prod 
+   2) main branch - Preprd
+   3) Develop branch - Dev
+   4) QA branch - QA 
+
+For every PR open it will run Snyk, Sonarqube and Label check Workflows and Once PR is merge it will build the code and upload artifacts to GitHub artifacts
+
