@@ -1,6 +1,6 @@
 
 export const API = {
-    BASE_URL:"http://4.240.78.114:8080",
+    BASE_URL:"http://4.240.78.114:",
     AUTH_URL:"/api/user",
     USER_URL:"/api/user",
     ITEM_URL:"/api/item",
