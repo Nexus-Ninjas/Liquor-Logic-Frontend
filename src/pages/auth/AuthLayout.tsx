@@ -125,7 +125,7 @@ const AuthLayout = ({
 			</div>
 			<footer className="footer footer-alt fw-medium">
 				<span className="text-dark">
-					{new Date().getFullYear()} © Velonic - Theme by Techzaa
+					{new Date().getFullYear()} © LiquorLogic - Product by Team NexusNinjas
 				</span>
 			</footer>
 		</div>
