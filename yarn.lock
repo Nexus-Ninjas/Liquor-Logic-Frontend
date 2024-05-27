@@ -770,10 +770,10 @@
   dependencies:
     parchment "^1.1.2"
 
-"@types/react-albus@^2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@types/react-albus/-/react-albus-2.0.9.tgz#949c179aca091cdd00c7ad620b9bfb857696e63f"
-  integrity sha512-xKf927uA96rqZA1KTzYn6x3/tQgWfOpVqqqzqReg1v8HhYioc25Y/2X2n244XSx6/lC4ZKE0PYw/Od0O3vFEIQ==
+"@types/react-albus@^2.0.12":
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@types/react-albus/-/react-albus-2.0.12.tgz#37d37ce5703f4411d18d693cd90ec053df66b930"
+  integrity sha512-x45RFRXLFBV+xfLw6llJz1uSrFzlN5sbp2o0TPsaL5A/p9A2Bg98/3ZBDhTaeL5DusWp19OiFlaPSP4yMAMD6A==
   dependencies:
     "@types/history" "^4.7.11"
     "@types/react" "*"
